@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Configurations>Debug;Release;development;prod;uat</Configurations>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NLog.Extensions.Logging" Version="1.6.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NSI.Common\NSI.Common.csproj" />
+  </ItemGroup>
+
+</Project>

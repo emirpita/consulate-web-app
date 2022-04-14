@@ -1,0 +1,24 @@
+.elements {
+  display: inline-flex;
+  color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+}
+
+.page-title {
+  text-align: center;
+  margin: 40px 0;
+  font-size: 40px;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.custom-file-upload {
+  border: 1px solid #0d6efd;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+  color: #000000;
+  border-radius: 5px;
+}

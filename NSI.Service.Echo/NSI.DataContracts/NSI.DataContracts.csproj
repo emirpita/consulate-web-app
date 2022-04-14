@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Configurations>Debug;Release;development;prod;uat</Configurations>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NSI.Common\NSI.Common.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="6.0.0-preview.4.21253.5" />
+  </ItemGroup>
+
+</Project>
